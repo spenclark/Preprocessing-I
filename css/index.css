@@ -134,3 +134,27 @@ html,
 body {
   height: 100%;
 }
+.container {
+  width: 80%;
+}
+.navigation {
+  margin: 2% 0;
+}
+.navigation .navlinks {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  color: #D7BE25;
+}
+.navigation .navlinks a {
+  font-size: 1.5rem;
+  color: #D7BE25;
+  text-decoration: none;
+}
+.navigation .navlinks a:hover {
+  color: grey;
+}
+.home {
+  display: flex;
+  background-color: #A7E1F7;
+}

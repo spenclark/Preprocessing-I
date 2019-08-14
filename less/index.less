@@ -57,3 +57,36 @@ html, body {
     height: 100%;
 }
 
+// /varible/ 
+@div-background-color: #A7E1F7;
+@color-comp: #D7BE25;
+// /mix ins/ 
+
+.container{
+	width: 80%;
+}
+// navbar
+
+.navigation{
+	margin: 2% 0;
+
+	.navlinks{
+		display: flex;
+		justify-content: space-around;
+
+		a{
+			font-size: 1.5rem;
+			color: @color-comp;
+			text-decoration: none;
+			:hover{
+				color: grey;
+		}
+		
+	}
+}
+
+// home
+
+.home{
+	display: flex;
+}
