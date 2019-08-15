@@ -136,25 +136,169 @@ body {
 }
 .container {
   width: 80%;
+  margin: 0 auto;
 }
 .navigation {
-  margin: 2% 0;
+  margin-top: 2.5%;
 }
 .navigation .navlinks {
   display: flex;
-  justify-content: space-around;
-  font-size: 1.5rem;
-  color: #D7BE25;
+  justify-content: space-evenly;
 }
 .navigation .navlinks a {
   font-size: 1.5rem;
   color: #D7BE25;
   text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .navigation .navlinks a:hover {
-  color: grey;
+  color: black;
+  text-decoration: underline;
 }
 .home {
+  padding: 5% 0;
+}
+.home .home-title {
+  font-size: 2rem;
+  padding: 0.5% 0;
+}
+.home .home-title #aka {
+  font-style: italic;
+  font-size: 1rem;
+}
+.home .home-job {
+  font-size: 1.5rem;
+  padding-top: 0.5%;
+  padding-bottom: 1.5%;
+  border-bottom: 1px black solid;
+}
+.btn-parent {
   display: flex;
-  background-color: #A7E1F7;
+  justify-content: center;
+  padding: 3% 0;
+}
+.btn-parent .home-button {
+  border: 1px #2697C5 solid;
+  border-radius: 8px;
+  width: 25%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background-color: #2697C5;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+.btn-parent .home-button a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.btn-parent .home-button:hover {
+  color: ivory;
+  background-color: #29A6DA;
+  border: 1px white solid;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  background-color: #29A6DA;
+  border: 2px #2697C5 solid;
+  padding: 5% 0;
+  border: 2px  solid;
+  border-radius: 10px;
+}
+.middle .about {
+  padding: 0% 3%;
+  font-size: 1.2rem;
+}
+.middle .about h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  margin: 2% 0;
+}
+.middle .skill-list {
+  flex-direction: column;
+  padding: 0 5%;
+  border-left: 1px black solid;
+  display: flex;
+  justify-content: flex-end;
+}
+.middle .skill-list h2 {
+  font-size: 1.5rem;
+  margin-bottom: 3%;
+}
+.middle .skill-list #skills {
+  font-size: 1.2rem;
+  list-style-type: upper-roman;
+}
+.middle .skill-list ul li {
+  margin: 4% 0;
+}
+.table {
+  display: flex;
+  justify-content: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 5% 0;
+}
+.table .table-content {
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+}
+.table .table-content #one {
+  background-color: #F2F1C4;
+}
+.table .table-content #two {
+  background-color: #B4AA88;
+}
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+.contact-form .form-contents h2 {
+  font-size: 1.5em;
+  margin-bottom: 15%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px 0;
+  background-color: #F2F1C4;
+  border: 1px #F2F1C4 solid;
+  color: #29A6DA;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.contact-form .form-contents .form {
+  width: 100%;
+  margin: 5px 0;
+  padding: 3% 1%;
+}
+.contact-form .form-contents .form:hover {
+  border: 1px #29A6DA solid;
+}
+.contact-form .form-contents #contact-btn {
+  width: 100%;
+  background-color: #2697C5;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+.contact-form .form-contents #contact-btn a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.contact-form .form-contents #contact-btn:hover {
+  color: ivory;
+  background-color: #29A6DA;
+  border: 1px white solid;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0%;
+}
+@media only screen and (max-width: 500px) {
+  .home-btn {
+    display: none;
+  }
 }

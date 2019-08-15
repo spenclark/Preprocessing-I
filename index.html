@@ -32,7 +32,7 @@
         <img id="home"src="img/profile.jpg" alt="Lawrence">
       </div>
       <div class="home-title">
-        	<h1>Thomas Edward Lawrence</h1>
+        	<h1>Thomas Edward Lawrence <span id="aka">aka Lawrence of Arabia</span></h1>
       </div>
       <div class="home-job">
         Colonel, British Army
@@ -40,22 +40,26 @@
       <div class="home-script"> 
         <p></p>
       </div>
-      <div class="home-button">
-        <a href="#contact">Contact Me</a>
-      </div>
+      
+
+      <div class="btn-parent">
+        <div class="home-button">
+          <a href="#contact">Contact Me</a>
+        </div>
+       </div>
     </div>
 
     <!-- About (shared div with skills) -->
     <div class="middle">
       <div class="about">
           <h2 id="about">My Career</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi voluptatum id dolorum exercitationem, unde corrupti velit at consectetur, adipisci dolor tempore doloribus cumque, delectus molestiae voluptates perferendis voluptate expedita numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta illum quidem aliquam expedita. In, maxime nostrum explicabo veritatis doloremque amet eos repellendus magni, architecto alias dolorem eum quod, aliquam officia!</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi voluptatum id dolorum exercitationem, unde corrupti velit at consectetur, adipisci dolor tempore doloribus cumque, delectus molestiae voluptates perferendis voluptate expedita numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta illum quidem aliquam expedita. In, maxime nostrum explicabo veritatis doloremque amet eos repellendus magni, architecto alias dolorem eum quod, aliquam officia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illo nihil quis magni distinctio porro, unde dignissimos accusantium possimus iste maiores quaerat sit commodi eos adipisci. Voluptas deserunt sapiente doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquam ex minus quaerat corrupti, quae distinctio inventore soluta, quidem architecto reiciendis eaque, optio nulla dolor totam aperiam dolorem tempora nostrum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est hic inventore perspiciatis, aperiam dolorem eveniet totam, id soluta ut facilis voluptate, officia voluptatem voluptatibus. Maxime tempore hic vel cupiditate laborum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo unde magnam veniam. Beatae corporis ipsam nesciunt sapiente provident inventore atque dignissimos, quia placeat. Excepturi debitis, minus unde aperiam incidunt labore!</p>
       </div>
 
       <!-- skills list -->
       <div class="skill-list">
+          <h2>Skill List:</h2>
         <ul id="skills">
-          <li>Building great workplace culture</li>
           <li>Gathering Intelligence</li>
           <li>Aligning inventives among distrusting parties</li>
           <li>Organizing distrubuted units</li>
@@ -67,47 +71,50 @@
     </div>
     <!-- career table -->
       <div class="table">
-        <table id="contact">
-            <tr>
-              <th>Organization</th>
-              <th>Job Title</th>
-              <th>Area of Operations</th>
-              <th>Years Active</th>
-            </tr>
-            <tr>
-              <td>British Intelligence Sercice</td>
-              <td>Liason</td>
-              <td>Egypt</td>
-              <td>1914</td>
-            </tr>
-            <tr>
-              <td>British Intelligence</td>
-              <td>Colonel</td>
-              <td>Arabia</td>
-              <td>1914 – 1918</td>
-            </tr>
-            <tr>
-              <td>Royal Air Force</td>
-              <td>Aircraftman</td>
-              <td>Dorest</td>
-              <td>1922 - 1935</td>
+        <div>
+          <table class="table-content">
+              <tr id="one">
+                <th>Organization</th>
+                <th>Job Title</th>
+                <th>Area of Operations</th>
+                <th>Years Active</th>
               </tr>
-        </table>
+              <tr id="two">
+                <td>British Intelligence Sercice</td>
+                <td>Liason</td>
+                <td>Egypt</td>
+                <td>1914 - 1915</td>
+              </tr>
+              <tr id="one">
+                <td>British Intelligence</td>
+                <td>Colonel</td>
+                <td>Arabia</td>
+                <td>1915 – 1918</td>
+              </tr>
+              <tr id="two">
+                <td>Royal Air Force</td>
+                <td>Aircraftman</td>
+                <td>Dorest</td>
+                <td>1922 - 1935</td>
+                </tr>
+              
+          </table>
+        </div>
       </div>
     <!-- Contact form -->
       <div class="contact-form">
-        <h2>Contact Me</h2>
-        <form>
-        
-          <input type="text" placeholder="Your Name">
-          
-          <input type="email" placeholder="user@website.com">
-
-          <Label></Label>
-          <textarea cols="30" rows="10" placeholder="Write me here!"></textarea>
-
-          <input type="submit" value="Contact Me">
-        </form>
+        <div class="form-contents">
+          <h2 id="contact">Contact Me</h2>
+            <form>
+              <input class="form" type="text" placeholder="Your Name">
+              <br>
+              <input  class="form" type="email" placeholder="user@website.com">
+              <br>
+              <textarea  class="form" cols="30" rows="10" placeholder="Write me here!"></textarea>
+              <br>
+              <input id="contact-btn" type="submit" value="Contact Me">
+            </form>
+        </div>
       </div>
     <!-- footer -->
       <div class="footer">
